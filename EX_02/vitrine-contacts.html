@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Acceuil</title>
+<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style/vitrine.css">
+    <link rel="stylesheet" type="text/css" href="vitrine-contacts.css">
+</head>
+<body> <!-- ouverture de la balise body -->
+
+    <h2>Contacts</h2>
+
+    <form action="contact-form.php" method="post">
+        <div>
+            <label for="name">Votre nom :</label>
+            <input type="text" id="name" name="user_name">
+        </div>
+        <div>
+            <label for="mail">Votre e-mail :</label>
+            <input type="email" id="mail" name="user_mail">
+        </div>
+        <div>
+            <label for="msg">Comment améliorer mon site? :</label>
+            <textarea id="msg" name="user_message"></textarea>
+        </div>
+
+        <div class="button">
+            <button type="submit">Envoyer</button>
+        </div>
+    </form>
+
+</body> <!-- fermeture de la balise body -->
+</html>
